@@ -8,7 +8,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/netflix-home" element={<Home />} />
+        <Route path="/netflix-app" element={<Home />} />
         <Route path="*" element={<NoPageFound />} />
       </Routes>
     </>
